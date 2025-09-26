@@ -6,7 +6,7 @@ st.write("I'm ", age, "years old")
 st.sidebar.text_input(age) 
 
 
-option = st.sidebar.selectbox(
+option = st.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone"),
 )
